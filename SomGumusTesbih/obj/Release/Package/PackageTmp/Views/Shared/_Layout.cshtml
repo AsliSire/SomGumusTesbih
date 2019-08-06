@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <!-- Global Site Etiketi (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments) };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109166014-1');
+    </script>
+    <link rel="shortcut icon" href="~/Images/favicon.ico" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - SOM Gümüş & Tesbih</title>
+
+</head>
+<body>
+    <header class="cd-main-header">
+        <a class="cd-logo" href="@Url.Action("Index","Home")"><img src="~/Images/svg/cd-logo.svg" alt="Logo"></a>
+        <ul class="cd-header-buttons">
+            @*<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>*@
+            <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+        </ul> <!-- cd-header-buttons -->
+    </header>
+    <div class="cd-overlay"></div>
+    <nav class="cd-nav">
+        <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+            <li>
+                <a href="@Url.Action("Index","Home")">Anasayfa</a>
+            </li>
+            <li>
+                <a href="@Url.Action("About","Home")">Hakkımızda</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Contact","Home")">İletişim</a>
+            </li>
+            <li class="has-children">
+                <a href="">Ürünler</a>
+                <ul class="cd-secondary-nav is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li class="has-children">
+                        <a href="">Bayan</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                            <li class="see-all"><a href="">Bayan Aksesuar</a></li>
+                            <li><a href="@Url.Action("KadinHayaletKolye","Product")">Kolye</a></li>
+                            <li><a href="@Url.Action("KadinBileklik","Product")">Bileklik</a></li>
+                            <li><a href="@Url.Action("KadinYuzuk","Product")">Yüzük</a></li>
+                            <li><a href="@Url.Action("KadinKupe","Product")">Küpe</a></li>
+                            <li><a href="@Url.Action("KadinSet","Product")">Set</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="">Erkek</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                            <li class="see-all"><a href="">Erkek Aksesuar</a></li>
+                            <li><a href="@Url.Action("ErkekKolye","Product")">Kolye</a></li>
+                            <li><a href="@Url.Action("ErkekBileklik","Product")">Bileklik</a></li>
+                            <li><a href="@Url.Action("ErkekYuzuk","Product")">Yüzük</a></li>
+                            <li><a href="@Url.Action("KolDugmesi","Product")">Kol Düğmesi</a></li>
+                            <li><a href="@Url.Action("ErkekKombin","Product")">Kombin</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="">Tesbih</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                            <li class="see-all"><a href="@Url.Action("Tesbih","Product")">Tüm Tesbihler</a></li>
+                            <li><a href="@Url.Action("KehribarTesbih","Product")">Kehribar Tesbih</a></li>
+                            <li><a href="@Url.Action("DogalTasTesbih","Product")">Doğal Taş Tesbih</a></li>
+                            <li><a href="@Url.Action("OltuTesbih","Product")">Oltu Taşı Tesbih</a></li>
+                            <li><a href="@Url.Action("GumusTesbih","Product")">Gümüş Tesbih</a></li>
+                            <li><a href="@Url.Action("KukaTesbih","Product")">Kuka Tesbih</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Alyans","Product")">Alyans</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("CelikBileklik","Product")">Çelik Bileklik</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Cakmak","Product")">Çakmak</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Tasarim","Product")">Tasarım</a>
+                        <ul class="is-hidden">
+                            <li class="go-back"><a href="#0">Ürünler</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul> <!-- primary-nav -->
+    </nav> <!-- cd-nav -->
+    @*<div id="cd-search" class="cd-search">
+        <form>
+            <input type="search" placeholder="Search...">
+        </form>
+    </div>*@
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+    <div class="accordion-menu">
+        <ul id="accordion" class="accordion">
+            <li>
+                <div class="link">Bayan<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="@Url.Action("KadinHayaletKolye","Product")" onclick="sendTotalPageNumber()">Kolye</a></li>
+                    <li><a href="@Url.Action("KadinBileklik","Product")">Bileklik</a></li>
+                    <li><a href="@Url.Action("KadinYuzuk","Product")">Yüzük</a></li>
+                    <li><a href="@Url.Action("KadinKupe","Product")">Küpe</a></li>
+                    <li><a href="@Url.Action("KadinSet","Product")">Set</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="link">Erkek<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="@Url.Action("ErkekKolye","Product")">Kolye</a></li>
+                    <li><a href="@Url.Action("ErkekBileklik","Product")">Bileklik</a></li>
+                    <li><a href="@Url.Action("ErkekYuzuk","Product")">Yüzük</a></li>
+                    <li><a href="@Url.Action("KolDugmesi","Product")">Kol Düğmesi</a></li>
+                </ul>
+                </li>
+            <li>
+                <div class="linksubmenu"><a href="@Url.Action("Alyans","Product")">Alyans</a></div>
+            </li>
+            <li>
+                <div class="link">Tesbih<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="@Url.Action("KehribarTesbih","Product")">Kehribar Tesbih</a></li>
+                    <li><a href="@Url.Action("DogalTasTesbih","Product")">Doğal Taş Tesbih</a></li>
+                    <li><a href="@Url.Action("OltuTesbih","Product")">Oltu Taşı Tesbih</a></li>
+                    <li><a href="@Url.Action("GumusTesbih","Product")">Gümüş Tesbih</a></li>
+                    <li><a href="@Url.Action("KukaTesbih","Product")">Kuka Tesbih</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="linksubmenu"><a href="@Url.Action("CelikBileklik","Product")">Çelik Bileklik</a></div>
+            </li>
+            <li>
+                <div class="linksubmenu"><a href="@Url.Action("Cakmak","Product")">Çakmak</a></div>
+            </li>
+            <li>
+                <div class="linksubmenu"><a href="@Url.Action("Tasarim","Product")">Kişiye Özel Tasarım</a></div>
+            </li>
+            <li>
+                <div class="linksubmenu"><a href="@Url.Action("ErkekKombin","Product")">Erkek Kombinler</a></div>
+            </li>
+        </ul>
+    </div>
+
+
+        @*@Html.Partial("_LoginPartial")*@
+        @RenderBody()
+
+
+        <div id="cd-quick-view" class="cd-quick-view">
+            <a href="javascript:void(0);" class="cd-close">Close</a>
+        </div> <!-- cd-quick-view -->
+        <div id="cd-quick-view-coverlay"></div>
+
+        <hr />
+
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <img src="~/Images/svg/cd-logo.svg" alt="Logo">
+                <p class="footer-links">
+                    <a href="#">Anasayfa</a>
+                    ·
+                    <a href="#">Hakkımızda</a>
+                    ·
+                    <a href="#">İletişim</a>
+                <p class="footer-company-name">SOM GÜMÜŞ & TESBİH &copy; 2017</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Tepebağ Mahallesi Çakmak Caddesi Toros Mağazası Karşısı No:22/A </span> Seyhan / ADANA</p>
+                </div>
+                <div>
+                    <i class="fa fa-mobile-phone"></i>
+                    <p>0 322 363 50 33 - 0 546 925 22 44</p>
+                </div>
+                <div>
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <p>0 546 925 22 44</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:somkuyumculuk@hotmail.com">somkuyumculuk@hotmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Hakkında</span>
+                    SOM Gümüş & Tesbih, 1965 yılında kurulmuş Adana – Çakmak Caddesi merkezli bir firmadır.
+                    Şıklığınızı tamamlamak için doğru adrestesiniz.
+                    </br>
+                    Keyifli alışverişler.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/somgumus1/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/som_gumus/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://som-gumus-tesbih.business.site"><i class="fa fa-google-plus"></i></a>
+
+                </div>
+            </div>
+
+            <p>&copy; @DateTime.Now.Year - Created by Aslı ŞİRE</p>
+
+        </footer>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/som")
+        @RenderSection("scripts", required: false)
+
+</body>
+</html>

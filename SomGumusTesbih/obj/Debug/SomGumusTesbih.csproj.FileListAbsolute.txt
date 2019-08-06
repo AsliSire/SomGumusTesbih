@@ -1,0 +1,288 @@
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\ApplicationInsights.config
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\csc.exe
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\vbc.exe
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\SomGumusTesbih.dll.config
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\SomGumusTesbih.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\SomGumusTesbih.pdb
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Antlr3.Runtime.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\EntityFramework.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\EntityFramework.SqlServer.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.Web.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Newtonsoft.Json.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Owin.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Helpers.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Mvc.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Optimization.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Razor.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\WebGrease.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.Web.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Helpers.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Mvc.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Optimization.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.Razor.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Antlr3.Runtime.pdb
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Newtonsoft.Json.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\EntityFramework.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\EntityFramework.SqlServer.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\obj\Debug\SomGumusTesbih.csprojResolveAssemblyReference.cache
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\obj\Debug\SomGumusTesbih.dll
+C:\Users\Bilal's.DESKTOP-LM8ODD9\Documents\Visual Studio 2017\Projects\SomGumusTesbih\SomGumusTesbih\obj\Debug\SomGumusTesbih.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\ApplicationInsights.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\SomGumusTesbih.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\SomGumusTesbih.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\SomGumusTesbih.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.Web.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\WebGrease.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Antlr3.Runtime.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.Web.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Optimization.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\obj\Debug\SomGumusTesbih.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\obj\Debug\SomGumusTesbih.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\WebApplication1\SomGumusTesbih\obj\Debug\SomGumusTesbih.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\ApplicationInsights.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Web.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Owin.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\WebGrease.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Antlr3.Runtime.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Web.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Optimization.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.csprojResolveAssemblyReference.cache
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\ApplicationInsights.config
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.dll.config
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\SomGumusTesbih.pdb
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Antlr3.Runtime.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\EntityFramework.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\EntityFramework.SqlServer.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Web.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Newtonsoft.Json.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Owin.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Helpers.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Mvc.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Optimization.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Razor.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Razor.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\WebGrease.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Antlr3.Runtime.pdb
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\EntityFramework.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\EntityFramework.SqlServer.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.Web.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\Newtonsoft.Json.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Helpers.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Mvc.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Optimization.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.Razor.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\bin\System.Web.WebPages.Razor.xml
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.csprojAssemblyReference.cache
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.csproj.CoreCompileInputs.cache
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.csproj.CopyComplete
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.dll
+C:\Users\Aslı Nazlı\Desktop\SOMGumus\SOMGumus\SomGumusTesbih\obj\Debug\SomGumusTesbih.pdb

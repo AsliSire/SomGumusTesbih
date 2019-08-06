@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B77FAE0C-2F7D-48E8-9202-64E06455BE21}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SomGumusTesbih</RootNamespace>
+    <AssemblyName>SomGumusTesbih</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\accordion-menu.css" />
+    <Content Include="Content\addtocart.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\center.css" />
+    <Content Include="Content\footer.css" />
+    <Content Include="Content\magnifying.css" />
+    <Content Include="Content\navigation.css" />
+    <Content Include="Content\pagination.css" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\slider.css" />
+    <Content Include="Content\social.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\style.css" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\mutlu_yillar.png" />
+    <Content Include="Images\ogr-gunu-slider.png" />
+    <Content Include="Images\products\Alyans\SOMALY5001.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5002.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5003.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5004.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5005.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5006.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5007.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5008.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5009.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5010.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5011.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5012.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5013.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5014.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5015.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5016.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5017.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5018.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5019.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5020.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5021.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5022.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5023.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5024.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5025.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5026.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5027.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5028.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5029.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5030.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5031.jpg" />
+    <Content Include="Images\products\Alyans\SOMALY5032.jpg" />
+    <Content Include="Images\products\Cakmak\ZC10001.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10002.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10003.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10004.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10005.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10006.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10007.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10008.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10009.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10010.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10011.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10012.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10013.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10014.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10015.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10016.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10017.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10018.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10019.JPG" />
+    <Content Include="Images\products\Cakmak\ZC10020.JPG" />
+    <Content Include="Images\products\CelikBileklik\CB8001.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8002.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8003.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8004.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8005.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8006.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8007.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8008.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8009.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8010.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8011.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8012.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8013.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8014.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8015.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8016.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8017.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8018.jpg" />
+    <Content Include="Images\products\CelikBileklik\CB8019.jpg" />
+    <Content Include="Images\products\ErkekBileklik\EB11001.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11002.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11003.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11004.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11005.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11006.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11007.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11008.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11009.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11010.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11011.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11012.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11013.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11014.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11015.JPG" />
+    <Content Include="Images\products\ErkekBileklik\EB11016.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12001.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12003.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12004.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12005.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12006.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12007.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12008.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12009.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12010.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12011.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12012.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12013.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12014.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12015.JPG" />
+    <Content Include="Images\products\ErkekKolye\EK12002.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7001.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7002.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7003.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7004.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7005.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7006.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7007.JPG" />
+    <Content Include="Images\products\ErkekKombin\EK7008.jpg" />
+    <Content Include="Images\products\ErkekKombin\EK7009.jpg" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2001.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2001sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2002.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2002sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2003.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2003sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2004.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2004sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2005.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2005sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2006.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2006sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2007.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2007sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2008.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2008sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2009.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2009sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2010.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2010sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2011.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2011sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2012.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2012sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2013.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2013sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2014.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2014sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2015.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2015sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2016.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2016sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2017.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2017sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2018.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2018sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2019.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2019sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2020.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2020sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2020sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2021.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2021sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2022.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2022sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2023.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2023sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2024.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2024sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2025.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2025sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2026.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2026sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2027.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2027sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2028.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2028sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2029.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2029sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2030.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2030sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2031.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2031sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2032.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2032sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2033.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2033sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2034.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2034sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2035.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2035sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2036.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2036sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2037.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2037sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2038.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2038sag.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2039.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2039sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2040.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2040sol.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2041.JPG" />
+    <Content Include="Images\products\ErkekYuzuk\EYZ2041sol.JPG" />
+    <Content Include="Images\products\KadinBileklik\isimtasarimlihayaletbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\kartanesitaslibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\kirmizitaslitacsiralibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\mavitaslidamlabileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\nazarboncuklunanotasbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\ortasipembekalplizirkonbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikdamlasiyahtasbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikdamlasiyahtasbileklikdetay.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikkirmiziovalbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikkirmiziovalbileklikdetay.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikortasibuyukovalbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikortasibuyukovalbileklikdetay.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikortasibuyuktaslidamlabileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\otantikyesilovalbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\sonsuzlukdortgenlibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\sonsuzluksiralibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\tekciceklibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\ucciceklibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\ucfatmaanaelibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\zümrütyesiliovalbileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\ucdairetaslibileklik.JPG" />
+    <Content Include="Images\products\KadinBileklik\uclukalpbileklik.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1074.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1075.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1076.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1077.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1078.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1079.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1080.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1081.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1082.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1083.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1084.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1085.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1086.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1087.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1088.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1089.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1090.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1091.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1092.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1093.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1094.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1095.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1096.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1097.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1098.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1099.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1100.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1101.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1102.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1103.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1104.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1105.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1106.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1107.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1108.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1109.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1110.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1111.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1112.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1113.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1114.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1115.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1116.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1117.JPG" />
+    <Content Include="Images\products\KadinKolye\KK1118.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1001.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1002.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1003.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1004.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1005.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1006.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1007.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1008.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1009.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1010.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1011.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1012.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1013.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1014.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1014detay.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1015.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1016.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1017.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1018.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1019.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1020.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1021.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1021detay.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1022.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1023.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1024.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1025.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1026.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1027.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1028.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1029.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1030.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1031.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1032.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1033.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1034.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1035.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1036.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1037.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1038.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1039.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1040.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1041.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1042.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1043.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1044.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1045.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1046.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1047.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1048.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1049.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1050.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1051.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1052.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1053.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1054.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1055.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1056.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1057.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1058.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1059.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1060.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1061.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1062.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1063.jpg" />
+    <Content Include="Images\products\KadinKolye\SOMKK1064.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1065.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1066.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1067.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1068.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1069.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1070.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1071.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1072.JPG" />
+    <Content Include="Images\products\KadinKolye\SOMKK1073.JPG" />
+    <Content Include="Images\products\KadinSet\KS5001.JPG" />
+    <Content Include="Images\products\KadinSet\KS5002.JPG" />
+    <Content Include="Images\products\KadinSet\KS5003.JPG" />
+    <Content Include="Images\products\KadinSet\KS5004.JPG" />
+    <Content Include="Images\products\KadinSet\KS5005.JPG" />
+    <Content Include="Images\products\KadinSet\KS5006.JPG" />
+    <Content Include="Images\products\KadinSet\KS5007.JPG" />
+    <Content Include="Images\products\KadinSet\KS5008.JPG" />
+    <Content Include="Images\products\KadinSet\KS5009.JPG" />
+    <Content Include="Images\products\KadinSet\KS5010.JPG" />
+    <Content Include="Images\products\KadinSet\KS5011.JPG" />
+    <Content Include="Images\products\KadinSet\KS5012.JPG" />
+    <Content Include="Images\products\KadinSet\KS5013.JPG" />
+    <Content Include="Images\products\KadinSet\KS5014.JPG" />
+    <Content Include="Images\products\KadinSet\KS5015.JPG" />
+    <Content Include="Images\products\KadinSet\KS5016.JPG" />
+    <Content Include="Images\products\KadinSet\KS5017.JPG" />
+    <Content Include="Images\products\KadinSet\KS5018.JPG" />
+    <Content Include="Images\products\KadinSet\KS5019.JPG" />
+    <Content Include="Images\products\KadinSet\KS5021.JPG" />
+    <Content Include="Images\products\KadinSet\KS5022.JPG" />
+    <Content Include="Images\products\KadinSet\KS5023.JPG" />
+    <Content Include="Images\products\KadinSet\KS5024.JPG" />
+    <Content Include="Images\products\KadinSet\KS5025.JPG" />
+    <Content Include="Images\products\KadinSet\KS5026.JPG" />
+    <Content Include="Images\products\KadinSet\KS5027.JPG" />
+    <Content Include="Images\products\KadinSet\KS5028.JPG" />
+    <Content Include="Images\products\KadinSet\KS5029.JPG" />
+    <Content Include="Images\products\KadinSet\KS5030.JPG" />
+    <Content Include="Images\products\KadinSet\KS5031.JPG" />
+    <Content Include="Images\products\KadinSet\KS5020.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9001.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9002.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9003.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9004.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9005.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9006.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9007.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9008.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9009.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9010.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9011.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9012.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9013.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9014.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9015.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9016.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9017.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9018.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9019.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9020.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9021.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9022.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9023.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9024.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9025.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9026.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9027.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9028.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9029.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9030.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9031.JPG" />
+    <Content Include="Images\products\KadinYuzuk\KY9032.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7001.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7002.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7003.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7004.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7005.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7006.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7007.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7008.JPG" />
+    <Content Include="Images\products\KolDugmesi\EKD7009.JPG" />
+    <Content Include="Images\products\Kupe\KKU6001.JPG" />
+    <Content Include="Images\products\Kupe\KKU6002.JPG" />
+    <Content Include="Images\products\Kupe\KKU6003.JPG" />
+    <Content Include="Images\products\Kupe\KKU6004.JPG" />
+    <Content Include="Images\products\Kupe\KKU6005.JPG" />
+    <Content Include="Images\products\Kupe\KKU6006.JPG" />
+    <Content Include="Images\products\Kupe\KKU6007.JPG" />
+    <Content Include="Images\products\Kupe\KKU6008.JPG" />
+    <Content Include="Images\products\Kupe\KKU6009.JPG" />
+    <Content Include="Images\products\Kupe\KKU6010.JPG" />
+    <Content Include="Images\products\Kupe\KKU6011.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4001.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4001puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4002.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4002puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4003.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4003puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4004.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4004puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4005.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4005puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4006.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4006puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4007.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4007puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4008.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4008puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4009.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4009detay.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4009puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4010.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4010puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4011.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4011puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4012.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4012puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4013.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4013puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4014.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4014puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4015.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4015puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4016.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4016detay.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4016puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4017.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4017puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4018.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4018detay.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4018puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4019.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4019puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4020.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4020puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4021.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4021puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4022.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4022puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4023.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4023puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4024.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4024puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4025.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4025puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4026.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4026puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4027.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4027puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4028.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4028puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4029.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4029detay.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4029puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4030.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4030puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4031.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4031puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4032.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4032puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4033.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4033puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4034.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4034puskul.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4035.JPG" />
+    <Content Include="Images\products\tesbih\SOMTB4035puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4036.JPG" />
+    <Content Include="Images\products\tesbih\TB4036detay.JPG" />
+    <Content Include="Images\products\tesbih\TB4036puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4037.JPG" />
+    <Content Include="Images\products\tesbih\TB4037detay.JPG" />
+    <Content Include="Images\products\tesbih\TB4037puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4038.JPG" />
+    <Content Include="Images\products\tesbih\TB4038puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4039.JPG" />
+    <Content Include="Images\products\tesbih\TB4039puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4040.JPG" />
+    <Content Include="Images\products\tesbih\TB4040puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4041.JPG" />
+    <Content Include="Images\products\tesbih\TB4041puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4042.JPG" />
+    <Content Include="Images\products\tesbih\TB4042puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4043.JPG" />
+    <Content Include="Images\products\tesbih\TB4043puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4044.JPG" />
+    <Content Include="Images\products\tesbih\TB4045.JPG" />
+    <Content Include="Images\products\tesbih\TB4045puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4046.JPG" />
+    <Content Include="Images\products\tesbih\TB4046puskul.JPG" />
+    <Content Include="Images\products\tesbih\TB4047.JPG" />
+    <Content Include="Images\slider-1.png" />
+    <Content Include="Images\slider-2.png" />
+    <Content Include="Images\Social\facebook.png" />
+    <Content Include="Images\Social\google.png" />
+    <Content Include="Images\Social\instagram.png" />
+    <Content Include="Images\Social\whatsapp.png" />
+    <Content Include="Images\som-slider-logo.png" />
+    <Content Include="Images\som-slider.png" />
+    <Content Include="Images\svg\cd-icon-arrows.svg" />
+    <Content Include="Images\svg\cd-logo-genis.svg" />
+    <Content Include="Images\svg\cd-logo.svg" />
+    <Content Include="Scripts\accordion-menu.js" />
+    <Content Include="Scripts\addtocart.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Include="Properties\PublishProfiles\somgumustesbih.com - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\magnifying.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\map.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\navigation.js" />
+    <Content Include="Scripts\paginate.js" />
+    <Content Include="Scripts\quickviewmobile.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\sidecart.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.js" />
+    <Content Include="Scripts\modernizr-custom.js" />
+    <Content Include="Scripts\snap.svg-min.js" />
+    <Content Include="Scripts\velocity.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Product\Alyans.cshtml" />
+    <Content Include="Views\Product\KadınAksesuar.cshtml" />
+    <Content Include="Views\Product\ErkekAksesuar.cshtml" />
+    <Content Include="Views\Product\Tesbih.cshtml" />
+    <Content Include="Views\Product\Cakmak.cshtml" />
+    <Content Include="Views\Product\KadinHayaletKolye.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Product\KadinBileklik.cshtml" />
+    <Content Include="Views\Shared\_LayoutIndex.cshtml" />
+    <Content Include="Views\Product\KadinSet.cshtml" />
+    <Content Include="Views\Product\ErkekYuzuk.cshtml" />
+    <Content Include="Views\Product\ErkekKombin.cshtml" />
+    <Content Include="Views\Product\Tasarim.cshtml" />
+    <Content Include="Views\Product\KadinKupe.cshtml" />
+    <Content Include="Views\Product\KolDugmesi.cshtml" />
+    <Content Include="Views\Product\ErkekBileklik.cshtml" />
+    <Content Include="Views\Product\CelikBileklik.cshtml" />
+    <Content Include="Views\Product\KadinYuzuk.cshtml" />
+    <Content Include="Views\Product\ErkekKolye.cshtml" />
+    <Content Include="Views\Product\KehribarTesbih.cshtml" />
+    <Content Include="Views\Product\DogalTasTesbih.cshtml" />
+    <Content Include="Views\Product\OltuTesbih.cshtml" />
+    <Content Include="Views\Product\GumusTesbih.cshtml" />
+    <Content Include="Views\Product\KukaTesbih.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\products\Saat\" />
+    <Folder Include="Scripts\js\" />
+    <Folder Include="Scripts\slider\" />
+    <Folder Include="Views\Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49506</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49506/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

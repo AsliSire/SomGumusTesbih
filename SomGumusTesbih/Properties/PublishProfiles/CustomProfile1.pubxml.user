@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAiMU1iqJkrEmNS6TfTbM/qQAAAAACAAAAAAAQZgAAAAEAACAAAAB/qM40tkGqDJMTwecoTege3cZV/uaz1tTXRLTf44vnWQAAAAAOgAAAAAIAACAAAAALALLfZbMDfxP6JsONy39Q684Ud+vBtcHf3sUvDwNieSAAAADCc3x568wbfIO7djYP/7aYyvtAqvCGvdgjgVxtgLbEC0AAAAC6ydio0i5dxkY1fPTZf2eYqG1qIosyTKnpP51/M4kj630SitbSQd23NOhAqRH1OfGIkXXw/IGGSKYPSLLxf+RA</EncryptedPassword>
+    <_PublishTargetUrl>ftp://FTP-EU.SITE4NOW.NET/som\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>09/18/2017 11:05:27</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 10:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>09/18/2017 11:05:27</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 10:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 10:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 17:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 12:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 12:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 16:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 12:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 12:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 16:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 18:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 18:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 18:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 03:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 14:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 14:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 14:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 14:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 14:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 14:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 14:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 14:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 14:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 17:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 22:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 15:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/SomGumusTesbih.dll">
+      <publishTime>10/31/2017 20:49:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 05:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 17:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 05:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 05:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 19:28:38</publishTime>
+    </File>
+    <File Include="Content/addtocart.css">
+      <publishTime>10/01/2017 12:27:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="Content/center.css">
+      <publishTime>10/24/2017 12:55:06</publishTime>
+    </File>
+    <File Include="Content/footer.css">
+      <publishTime>10/23/2017 15:48:44</publishTime>
+    </File>
+    <File Include="Content/navigation.css">
+      <publishTime>10/22/2017 23:32:26</publishTime>
+    </File>
+    <File Include="Content/reset.css">
+      <publishTime>09/21/2017 14:03:05</publishTime>
+    </File>
+    <File Include="Content/slider.css">
+      <publishTime>10/24/2017 12:58:45</publishTime>
+    </File>
+    <File Include="Content/social.css">
+      <publishTime>10/21/2017 16:33:54</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>10/27/2017 14:27:49</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/16/2017 17:55:46</publishTime>
+    </File>
+    <File Include="Images/favicon.ico">
+      <publishTime>10/27/2017 21:29:32</publishTime>
+    </File>
+    <File Include="Images/products/alyans/01.jpeg">
+      <publishTime>09/09/2017 14:02:39</publishTime>
+    </File>
+    <File Include="Images/products/alyans/02.jpeg">
+      <publishTime>09/09/2017 14:05:00</publishTime>
+    </File>
+    <File Include="Images/products/alyans/03.jpeg">
+      <publishTime>09/09/2017 14:07:29</publishTime>
+    </File>
+    <File Include="Images/products/alyans/04.jpeg">
+      <publishTime>09/09/2017 14:06:28</publishTime>
+    </File>
+    <File Include="Images/products/alyans/05.jpeg">
+      <publishTime>09/09/2017 14:08:52</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/ciftzulfikaron.JPG">
+      <publishTime>10/28/2017 15:36:58</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/ciftzulfikarsag.JPG">
+      <publishTime>10/28/2017 15:37:19</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/ciftzulfikarsol.JPG">
+      <publishTime>10/28/2017 15:37:42</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifislemelion.JPG">
+      <publishTime>10/27/2017 12:30:55</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifislemelisag.JPG">
+      <publishTime>10/27/2017 12:33:32</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifislemelisol.JPG">
+      <publishTime>10/27/2017 12:32:24</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifvevavon.JPG">
+      <publishTime>10/27/2017 12:18:09</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifvevavsag.JPG">
+      <publishTime>10/27/2017 12:18:57</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/elifvevavsol.JPG">
+      <publishTime>10/27/2017 12:17:27</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kayiboyuon.JPG">
+      <publishTime>10/27/2017 12:51:57</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kayiboyusag.JPG">
+      <publishTime>10/27/2017 12:53:43</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kayiboyusol.JPG">
+      <publishTime>10/27/2017 12:52:52</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kilicislemelion.JPG">
+      <publishTime>10/27/2017 12:20:29</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kilicislemelisag.JPG">
+      <publishTime>10/27/2017 12:26:55</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/kilicislemelisol.JPG">
+      <publishTime>10/27/2017 12:19:46</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/motiflion.JPG">
+      <publishTime>10/27/2017 12:54:56</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/motiflisag.JPG">
+      <publishTime>10/27/2017 12:57:56</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/motiflisol.JPG">
+      <publishTime>10/27/2017 12:55:48</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugasimargazitsag.JPG">
+      <publishTime>10/27/2017 12:46:18</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugrasimargaziton.JPG">
+      <publishTime>10/27/2017 12:44:23</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugrasimargazitsol.JPG">
+      <publishTime>10/27/2017 12:45:15</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugrasion.JPG">
+      <publishTime>10/27/2017 12:27:54</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugrasisag.JPG">
+      <publishTime>10/27/2017 12:29:44</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/osmanlitugrasisol.JPG">
+      <publishTime>10/27/2017 12:28:56</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/sancakislemelion.JPG">
+      <publishTime>10/27/2017 12:58:51</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/sancakislemelisag.JPG">
+      <publishTime>10/27/2017 13:01:13</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/sancakislemelisol.JPG">
+      <publishTime>10/27/2017 13:00:00</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragikareon.JPG">
+      <publishTime>10/27/2017 12:47:07</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragikaresag.JPG">
+      <publishTime>10/27/2017 12:50:47</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragikaresol.JPG">
+      <publishTime>10/27/2017 12:48:05</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragimotiflion.JPG">
+      <publishTime>10/27/2017 12:34:35</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragimotiflisag.JPG">
+      <publishTime>10/27/2017 12:41:05</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragimotiflisol.JPG">
+      <publishTime>10/27/2017 12:39:35</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragitugralion.JPG">
+      <publishTime>10/27/2017 12:42:00</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragitugralisag.JPG">
+      <publishTime>10/27/2017 12:43:35</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/turkbayragitugralisol.JPG">
+      <publishTime>10/27/2017 12:42:57</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/zulfikarislemelion.JPG">
+      <publishTime>10/27/2017 12:13:59</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/zulfikarislemelisag.JPG">
+      <publishTime>10/27/2017 12:16:46</publishTime>
+    </File>
+    <File Include="Images/products/ErkekYuzuk/zulfikarislemelisol.JPG">
+      <publishTime>10/27/2017 12:12:18</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/asmayapragikolye.JPG">
+      <publishTime>10/30/2017 16:50:40</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ayyildizsarkankolye.JPG">
+      <publishTime>10/30/2017 16:50:32</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/beyazkanatlimelekkolye.JPG">
+      <publishTime>10/30/2017 16:50:23</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/beyazsuryaninazarligikolye.JPG">
+      <publishTime>10/30/2017 16:49:45</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ciftyapraklikolye.JPG">
+      <publishTime>10/30/2017 16:42:29</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/denizkizikolye.JPG">
+      <publishTime>10/30/2017 16:50:13</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/dotryaprakliyoncakolye.JPG">
+      <publishTime>10/30/2017 16:50:00</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/elifkolye.JPG">
+      <publishTime>10/30/2017 16:49:23</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/fatmaanaelikolye.JPG">
+      <publishTime>10/30/2017 16:52:28</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/fatmaanaelikolyedetay.JPG">
+      <publishTime>10/30/2017 16:52:21</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/isimtasarimlimelekkanatlarikolye.JPG">
+      <publishTime>10/30/2017 16:52:06</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/kalplisonsuzlukkolye.JPG">
+      <publishTime>10/30/2017 16:52:14</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/kanatlisonsuzlukkolye.JPG">
+      <publishTime>10/30/2017 16:52:51</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/mavikanatlimelekkolye.JPG">
+      <publishTime>10/30/2017 16:52:42</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/melekkanadikolye.JPG">
+      <publishTime>10/30/2017 16:51:54</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/melekkanatlarikolye.JPG">
+      <publishTime>10/30/2017 16:52:35</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/okveyaykolye.JPG">
+      <publishTime>10/30/2017 16:53:26</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/osmanlitugrasikolye.JPG">
+      <publishTime>10/30/2017 16:53:57</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/osmanlitugrasikolye2.JPG">
+      <publishTime>10/30/2017 16:53:19</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/saridogaltaskolye.JPG">
+      <publishTime>10/30/2017 16:53:13</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/sekizkoseliyildizkolye.JPG">
+      <publishTime>10/30/2017 16:54:04</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/siralitaslikolye.JPG">
+      <publishTime>10/30/2017 16:53:51</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/siyahkanatlimelekkolye.JPG">
+      <publishTime>10/30/2017 16:53:32</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/siyahkelebekkolye.JPG">
+      <publishTime>10/30/2017 16:53:39</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/taslikelebekkolye.JPG">
+      <publishTime>10/30/2017 16:55:34</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/turkbayragikolye.JPG">
+      <publishTime>10/30/2017 16:55:24</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/turkbayragikolyerose.JPG">
+      <publishTime>10/30/2017 16:55:18</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/turkbayraklicocukkolye.JPG">
+      <publishTime>10/30/2017 16:55:10</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/turkyazilikolye.JPG">
+      <publishTime>10/30/2017 16:55:04</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucanbalonlukizkolye.JPG">
+      <publishTime>10/30/2017 16:54:58</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucanbalonlukizkolye2.JPG">
+      <publishTime>10/30/2017 16:54:25</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucanmartikolye.JPG">
+      <publishTime>10/30/2017 16:54:51</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucurtmakolye.JPG">
+      <publishTime>10/30/2017 16:54:44</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucurtmakolyedetay.JPG">
+      <publishTime>10/30/2017 16:54:37</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/ucurtmalicocuklarkolye.JPG">
+      <publishTime>10/30/2017 16:54:31</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/vcubukkolye.JPG">
+      <publishTime>10/30/2017 16:55:43</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/vtaslikolye.JPG">
+      <publishTime>10/30/2017 16:56:14</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/yazitasarimlikolye.JPG">
+      <publishTime>10/30/2017 17:34:20</publishTime>
+    </File>
+    <File Include="Images/products/KadinKolye/zumrutyesilitaslikolye.JPG">
+      <publishTime>10/30/2017 16:56:07</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0344.JPG">
+      <publishTime>10/26/2017 20:00:10</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0345.JPG">
+      <publishTime>10/26/2017 19:54:09</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0348.JPG">
+      <publishTime>10/25/2017 11:30:29</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0350.JPG">
+      <publishTime>10/26/2017 20:01:15</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0351.JPG">
+      <publishTime>10/25/2017 10:47:00</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0352.JPG">
+      <publishTime>10/26/2017 20:02:26</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0353.JPG">
+      <publishTime>10/25/2017 10:53:26</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0354.JPG">
+      <publishTime>10/26/2017 20:43:08</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0355.JPG">
+      <publishTime>10/25/2017 10:56:17</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0356.JPG">
+      <publishTime>10/26/2017 20:44:37</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0358.JPG">
+      <publishTime>10/26/2017 20:45:51</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0360.JPG">
+      <publishTime>10/25/2017 10:58:53</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0361.JPG">
+      <publishTime>10/26/2017 19:38:12</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0362.JPG">
+      <publishTime>10/25/2017 11:01:56</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0364.JPG">
+      <publishTime>10/26/2017 19:30:51</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0365.JPG">
+      <publishTime>10/25/2017 11:04:04</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0366.JPG">
+      <publishTime>10/26/2017 19:41:02</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0367.JPG">
+      <publishTime>10/25/2017 11:11:25</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0368.JPG">
+      <publishTime>10/26/2017 19:42:17</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0369.JPG">
+      <publishTime>10/25/2017 11:14:34</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0370.JPG">
+      <publishTime>10/26/2017 19:44:30</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0371.JPG">
+      <publishTime>10/25/2017 11:17:34</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0372.JPG">
+      <publishTime>10/26/2017 19:45:32</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0373.JPG">
+      <publishTime>10/25/2017 11:19:03</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0374.JPG">
+      <publishTime>10/26/2017 19:49:17</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0376.JPG">
+      <publishTime>10/25/2017 11:21:54</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0377.JPG">
+      <publishTime>10/26/2017 20:47:06</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0380.JPG">
+      <publishTime>10/25/2017 11:24:32</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0384.JPG">
+      <publishTime>10/26/2017 20:49:16</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0385.JPG">
+      <publishTime>10/25/2017 11:27:22</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0388.JPG">
+      <publishTime>10/26/2017 20:50:37</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0389.JPG">
+      <publishTime>10/25/2017 11:34:18</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0390.JPG">
+      <publishTime>10/26/2017 20:53:15</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0391.JPG">
+      <publishTime>10/25/2017 11:37:23</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0392.JPG">
+      <publishTime>10/26/2017 19:51:13</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0393.JPG">
+      <publishTime>10/25/2017 11:45:35</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0394.JPG">
+      <publishTime>10/26/2017 20:54:19</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0396.JPG">
+      <publishTime>10/25/2017 11:48:12</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0397.JPG">
+      <publishTime>10/26/2017 19:59:11</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0398.JPG">
+      <publishTime>10/25/2017 11:51:24</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0399.JPG">
+      <publishTime>10/26/2017 19:57:52</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0400.JPG">
+      <publishTime>10/25/2017 11:57:58</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0401.JPG">
+      <publishTime>10/26/2017 19:57:03</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0402.JPG">
+      <publishTime>10/25/2017 12:00:41</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0403.JPG">
+      <publishTime>10/26/2017 19:55:20</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0404.JPG">
+      <publishTime>10/25/2017 12:02:13</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0405.JPG">
+      <publishTime>10/26/2017 19:52:29</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0407.JPG">
+      <publishTime>10/25/2017 12:04:10</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0408.JPG">
+      <publishTime>10/25/2017 12:06:14</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0409.JPG">
+      <publishTime>10/25/2017 12:07:26</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0410.JPG">
+      <publishTime>10/25/2017 12:08:04</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0411.JPG">
+      <publishTime>10/25/2017 12:08:51</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0413.JPG">
+      <publishTime>10/25/2017 12:09:47</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0414.JPG">
+      <publishTime>10/25/2017 12:10:23</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0415.JPG">
+      <publishTime>10/25/2017 12:11:29</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0416.JPG">
+      <publishTime>10/25/2017 13:39:28</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0417.JPG">
+      <publishTime>10/25/2017 13:40:55</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0418.JPG">
+      <publishTime>10/25/2017 13:41:36</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0473.JPG">
+      <publishTime>10/26/2017 19:31:02</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0533.JPG">
+      <publishTime>10/26/2017 20:48:10</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0546.JPG">
+      <publishTime>10/26/2017 20:55:31</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0548.JPG">
+      <publishTime>10/26/2017 20:56:48</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0550.JPG">
+      <publishTime>10/26/2017 20:58:40</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0553.JPG">
+      <publishTime>10/26/2017 20:59:40</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0558.JPG">
+      <publishTime>10/26/2017 21:00:49</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0560.JPG">
+      <publishTime>10/26/2017 21:03:08</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0565.JPG">
+      <publishTime>10/26/2017 21:05:19</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0567.JPG">
+      <publishTime>10/26/2017 21:06:09</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0570.JPG">
+      <publishTime>10/26/2017 21:07:19</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0573.JPG">
+      <publishTime>10/26/2017 21:08:42</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0578.JPG">
+      <publishTime>10/26/2017 21:09:40</publishTime>
+    </File>
+    <File Include="Images/products/Kadın Kolye/DSC_0584.JPG">
+      <publishTime>10/26/2017 21:11:04</publishTime>
+    </File>
+    <File Include="Images/products/tesbih/06.jpeg">
+      <publishTime>09/09/2017 14:09:55</publishTime>
+    </File>
+    <File Include="Images/products/tesbih/07.jpeg">
+      <publishTime>09/09/2017 14:10:41</publishTime>
+    </File>
+    <File Include="Images/products/tesbih/08.jpeg">
+      <publishTime>09/09/2017 14:11:36</publishTime>
+    </File>
+    <File Include="Images/Social/facebook.png">
+      <publishTime>10/21/2017 17:10:39</publishTime>
+    </File>
+    <File Include="Images/Social/google.png">
+      <publishTime>10/21/2017 17:11:14</publishTime>
+    </File>
+    <File Include="Images/Social/instagram.png">
+      <publishTime>10/21/2017 17:10:07</publishTime>
+    </File>
+    <File Include="Images/Social/whatsapp.png">
+      <publishTime>10/21/2017 17:10:59</publishTime>
+    </File>
+    <File Include="Images/som-slider.png">
+      <publishTime>10/20/2017 14:04:57</publishTime>
+    </File>
+    <File Include="Images/svg/cd-icon-arrows.svg">
+      <publishTime>07/26/2016 12:17:46</publishTime>
+    </File>
+    <File Include="Images/svg/cd-logo-genis.svg">
+      <publishTime>10/19/2017 15:43:57</publishTime>
+    </File>
+    <File Include="Images/svg/cd-logo.svg">
+      <publishTime>10/19/2017 11:22:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/18/2017 11:05:27</publishTime>
+    </File>
+    <File Include="Scripts/addtocart.js">
+      <publishTime>10/01/2017 13:11:35</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/18/2017 11:04:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/18/2017 11:04:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/18/2017 11:04:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/18/2017 11:04:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.js">
+      <publishTime>04/05/2017 02:20:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>07/20/2016 19:21:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>10/27/2017 15:14:39</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/18/2017 11:05:07</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-custom.js">
+      <publishTime>07/26/2016 15:29:12</publishTime>
+    </File>
+    <File Include="Scripts/navigation.js">
+      <publishTime>09/07/2017 17:17:24</publishTime>
+    </File>
+    <File Include="Scripts/quickviewmobile.js">
+      <publishTime>10/21/2017 12:06:21</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/18/2017 11:05:08</publishTime>
+    </File>
+    <File Include="Scripts/sidecart.js">
+      <publishTime>09/21/2017 15:02:46</publishTime>
+    </File>
+    <File Include="Scripts/snap.svg-min.js">
+      <publishTime>07/22/2016 09:29:48</publishTime>
+    </File>
+    <File Include="Scripts/velocity.min.js">
+      <publishTime>04/05/2017 02:20:28</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/28/2017 11:22:40</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>10/16/2017 17:55:31</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>10/16/2017 17:55:36</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>10/16/2017 17:56:02</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>10/16/2017 17:56:08</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>10/16/2017 17:56:14</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>10/16/2017 17:56:17</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>10/16/2017 17:56:23</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>10/16/2017 17:55:26</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>10/23/2017 11:40:57</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>10/24/2017 12:45:56</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>10/30/2017 17:07:59</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>10/16/2017 17:56:30</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>10/16/2017 17:56:36</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>10/16/2017 17:56:40</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>10/16/2017 17:56:45</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>10/16/2017 17:56:49</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>10/16/2017 17:56:53</publishTime>
+    </File>
+    <File Include="Views/Product/Alyans.cshtml">
+      <publishTime>10/18/2017 14:30:02</publishTime>
+    </File>
+    <File Include="Views/Product/Cakmak.cshtml">
+      <publishTime>10/18/2017 14:30:10</publishTime>
+    </File>
+    <File Include="Views/Product/ErkekAksesuar.cshtml">
+      <publishTime>10/27/2017 13:03:50</publishTime>
+    </File>
+    <File Include="Views/Product/ErkekYuzuk.cshtml">
+      <publishTime>10/27/2017 16:54:57</publishTime>
+    </File>
+    <File Include="Views/Product/KadınAksesuar.cshtml">
+      <publishTime>10/18/2017 14:30:23</publishTime>
+    </File>
+    <File Include="Views/Product/KadınHayaletKolye.cshtml">
+      <publishTime>10/30/2017 10:54:04</publishTime>
+    </File>
+    <File Include="Views/Product/Tesbih.cshtml">
+      <publishTime>10/18/2017 14:30:31</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>09/18/2017 11:05:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/28/2017 13:38:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>09/19/2017 14:53:54</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/16/2017 17:57:01</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/18/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/31/2017 20:50:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

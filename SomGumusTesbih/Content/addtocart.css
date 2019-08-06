@@ -1,0 +1,338 @@
+﻿/* --------- Add to Cart Button -------------- */
+.add-to-cart-button {
+    display: inline-block;
+    padding: 1.2em 1.8em;
+    background: #2c97de;
+    border-radius: 50em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: .1em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+    .add-to-cart-button:hover {
+        background: #42a2e1;
+    }
+
+    .add-to-cart-button:active {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+/* --------- Hide and Delete Product When Remove Button Clicked -------------- */
+
+#cd-cart .cd-cart-items li.deleted {
+    /* this class is added to an item when it is removed form the cart */
+    position: absolute;
+    left: 1.4em;
+    width: calc(100% - 2.8em);
+    opacity: 0;
+    -webkit-animation: cd-item-slide-out .3s forwards;
+    animation: cd-item-slide-out .3s forwards;
+}
+
+#cd-cart .cd-cart-items li.deleted.undo-deleted {
+        /* used to reinsert an item deleted from the cart when user clicks 'Undo' */
+        -webkit-animation: cd-item-slide-in .3s forwards;
+        animation: cd-item-slide-in .3s forwards;
+}
+
+#cd-cart .cd-cart-items li.deleted + li {
+        -webkit-animation: cd-item-move-up-mobile .3s;
+        animation: cd-item-move-up-mobile .3s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+}
+
+#cd-cart .cd-cart-items li.undo-deleted + li {
+    -webkit-animation: cd-item-move-down-mobile .3s;
+    animation: cd-item-move-down-mobile .3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+/* --------- Hide and Delete Product When Remove Button Clicked (Media Only)-------------- */
+
+@media only screen and (min-width: 768px) {
+    #cd-cart .cd-cart-items li:not(:last-of-type) {
+        margin-bottom: 14px;
+    }
+
+    #cd-cart .cd-cart-items li.deleted + li {
+        -webkit-animation: cd-item-move-up .3s;
+        animation: cd-item-move-up .3s;
+    }
+
+    #cd-cart .cd-cart-items li.undo-deleted + li {
+        -webkit-animation: cd-item-move-down .3s;
+        animation: cd-item-move-down .3s;
+    }
+}
+
+/* ----------- Undo Styles ---------------*/
+/* Not available, will be modificated soon*/
+
+#cd-cart .undo {
+    float: right;
+    font-size: 1.2rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .2s, visibility .2s;
+    transition: opacity .2s, visibility .2s;
+    color: #808b97;
+}
+
+    #cd-cart .undo a {
+        text-decoration: underline;
+        color: #2b3e51;
+    }
+
+        #cd-cart .undo a:hover {
+            color: #2c97de;
+        }
+
+    #cd-cart .undo.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+#cd-cart-trigger .count {
+    /* number of items indicator */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 18px;
+    width: 18px;
+    background: #e94b35;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    text-indent: 0;
+    -webkit-transition: -webkit-transform .2s .5s;
+    transition: -webkit-transform .2s .5s;
+    transition: transform .2s .5s;
+    transition: transform .2s .5s, -webkit-transform .2s .5s;
+}
+
+@media only screen and (min-width: 1200px) {
+    #cd-cart-trigger .count {
+        top: 10px;
+        right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+#cd-cart-trigger .count li {
+    /* this is the number of items in the cart */
+    position: absolute;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+    #cd-cart-trigger .count li:last-of-type {
+        visibility: hidden;
+    }
+
+#cd-cart-trigger .count.update-count li:last-of-type {
+    -webkit-animation: cd-qty-enter .15s;
+    animation: cd-qty-enter .15s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+}
+
+#cd-cart-trigger .count.update-count li:first-of-type {
+    -webkit-animation: cd-qty-leave .15s;
+    animation: cd-qty-leave .15s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+}
+
+.empty #cd-cart-trigger .count {
+    /* fix bug - when cart is empty, do not animate count */
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/* ---- Animation Keyframes ---- */
+@-webkit-keyframes cd-qty-enter {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+@keyframes cd-qty-enter {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+}
+@-webkit-keyframes cd-qty-leave {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-100%);
+            transform: translateX(-50%) translateY(-100%);
+  }
+}
+@keyframes cd-qty-leave {
+  0% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-100%);
+            transform: translateX(-50%) translateY(-100%);
+  }
+}
+@-webkit-keyframes cd-item-move-up-mobile {
+  0% {
+    padding-top: 70px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+@keyframes cd-item-move-up-mobile {
+  0% {
+    padding-top: 70px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+@-webkit-keyframes cd-item-move-up {
+  0% {
+    padding-top: 104px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+@keyframes cd-item-move-up {
+  0% {
+    padding-top: 104px;
+  }
+  100% {
+    padding-top: 0px;
+  }
+}
+@-webkit-keyframes cd-item-move-down-mobile {
+  0% {
+    padding-top: 0px;
+  }
+  100% {
+    padding-top: 70px;
+  }
+}
+@keyframes cd-item-move-down-mobile {
+  0% {
+    padding-top: 0px;
+  }
+  100% {
+    padding-top: 70px;
+  }
+}
+@-webkit-keyframes cd-item-move-down {
+  0% {
+    padding-top: 0px;
+  }
+  100% {
+    padding-top: 104px;
+  }
+}
+@keyframes cd-item-move-down {
+  0% {
+    padding-top: 0px;
+  }
+  100% {
+    padding-top: 104px;
+  }
+}
+@-webkit-keyframes cd-item-slide-out {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+    opacity: 0;
+  }
+}
+@keyframes cd-item-slide-out {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes cd-item-slide-in {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+    opacity: 0;
+  }
+}
+@keyframes cd-item-slide-in {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+    opacity: 0;
+  }
+}

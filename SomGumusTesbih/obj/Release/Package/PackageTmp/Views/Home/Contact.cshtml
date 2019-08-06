@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "İletişim";
+}
+<main class="cd-main-content">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhHyxqVO_x_VthVIeLRmrJ2hTG4dJAIw8&callback=initMap"
+            type="text/javascript"></script>
+
+    </br>
+       <h2>@ViewBag.Title.</h2>
+
+    <table>
+
+        <tr>
+            <th>Firma Adı:&nbsp;&nbsp;&nbsp;</th>
+            <td>SOM Gümüş & Tesbih</td>
+        </tr>
+        <tr>
+            <th>Telefon:</th>
+            <td>0 322 363 50 33</td>
+        </tr>
+        <tr>
+            <th>GSM:</th>
+            <td>0 546 925 22 44</td>
+        </tr>
+        <tr>
+            <th>WhatsApp:</th>
+            <td>0 541 821 46 32</td>
+        </tr>
+        
+        <tr>
+            <th>E-mail:</th>
+            <td>somkuyumculuk@hotmail.com</td>
+        </tr>
+
+    </table>
+
+    <div id="map"></div>
+    <center>Detaylı bilgi için yer işaretlerine tıklayın.</center>
+
+
+    @*@Html.Partial("_CartPartial")*@
+</main>
